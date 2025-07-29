@@ -21,5 +21,10 @@ pipeline {
                 sh 'mvn install'
             }
         }
+        stage('sucessfully'){
+           steps {
+                echo "webhook sucessfully run"
+            }
+        }
     }
 }
